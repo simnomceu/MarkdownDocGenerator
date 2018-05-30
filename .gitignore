@@ -1,0 +1,85 @@
+# Visual Studio 2015 project
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
+
+# Makefile project
+*.make
+Makefile
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+
+# Compiled Static libraries
+*.lai
+*.la
+#*.a
+#*.lib
+
+#crash
+*.ipch
+
+# Visual C++ cache files
+ipch/
+*.sdf
+*.VC.db
+*.VC.VC.opendb
+*.cachefile
+*.opensdf
+*.opendb
+-.ncb
+*.aps
+
+# Visual Studio 2015 cache/options directory
+.vs/
+
+# Build results
+#[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+#x64/
+#x86/
+bld/
+[Bb]in/
+[Oo]bj/
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# NuGet packages
+*.nupkg
+# The packages folder can be ignored becase of Package Restire
+**/packages/*
+# except build/, which is used as an MSBuild target
+!**/packages/build/
+# NuGet v3's project.json files produces more ignoreable files
+*.nuget.props
+*.nuget.targets
+
+# Visual Paradigm project
+resource/uml/*
+resource/documents/*
+
+# Git merge tool
+*.bak
+*.orig
