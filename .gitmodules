@@ -1,0 +1,3 @@
+[submodule "build/modules/enhanced_premake"]
+	path = build/modules/enhanced_premake
+	url = https://framagit.org/simnomce_u/enhanced_premake.git
